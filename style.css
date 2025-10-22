@@ -133,7 +133,7 @@ p {
 }
 
 .avatar {
-  width: 52px;              /* kích thước avatar */
+  width: 52px;              
   height: 52px;
   border-radius: 50%;
   object-fit: cover;
@@ -141,14 +141,14 @@ p {
 
 .presence-dnd {
   position: absolute;
-  bottom: -8px;              /* giữ sát mép dưới avatar */
-  right: 0px;               /* giữ sát mép phải avatar */
-  width: 13px;              /* tăng nhẹ size để vừa mắt */
+  bottom: -8px;              
+  right: 0px;               
+  width: 13px;              
   height: 13px;
   border-radius: 50%;
   object-fit: contain;
   z-index: 2;
-  transform: translate(-15px, -15px); /* dịch icon vào góc trong 1 chút */
+  transform: translate(-15px, -15px); 
 }
 
 

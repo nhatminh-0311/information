@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  overflow: hidden;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("./background.webp"); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: brightness(0.8);
+  z-index: -1;
+}
+
+
+.content {
+  text-align: center;
+  padding: 20px;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin: 10px 0;
+}
+
+p {
+  font-size: 1rem;
+  color: #ddd;
+}
+
+/* Phần hồ sơ nhỏ */
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+  background: rgba(255, 255, 255, 0.212);
+  border-radius: 20px;
+  padding: 10px 20px;
+  max-width: 300px;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+
+.status {
+  display: flex;
+  flex-direction: column;   
+  align-items: flex-start;  
+  line-height: 1.2;
+}
+
+
+.desc {
+  color: #aaa;
+  font-size: 0.9rem;
+  margin-top: 3px;
+  display: block; 
+  margin: 10px 0;
+  color: #fff;
+  text-shadow: 0 0 10px #fff, 0 0 20px #aaa;
+}
+
+.nitro-badge {
+  width: 18px;
+  height: 18px;
+  vertical-align: middle;
+  filter: drop-shadow(0 0 3px rgba(255,255,255,0.3));
+}
+
+
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 500px;
+  background: rgba(3, 3, 3, 0.212);
+  border-radius: 20px;
+  padding: 10px 20px;
+
+}
+
+.socials a img {
+  width: 35px;
+  margin: 0 10px;
+  transition: transform 0.2s ease;
+  filter: drop-shadow(0 0 5px rgba(255,255,255,0.3));
+}
+
+.socials a img:hover {
+  transform: scale(1.2);
+}
+
+.views {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #bbb;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin: 10px 0;
+  color: #fff;
+  text-shadow: 0 0 10px #fff, 0 0 20px #aaa;
+}
+
+p {
+  margin: 10px 0;
+  color: #fff;
+  text-shadow: 0 0 10px #fff, 0 0 20px #aaa;
+}
+
+.avatar-wrap {
+  position: relative;
+  display: inline-block;
+}
+
+.avatar {
+  width: 52px;              
+  height: 52px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.presence-dnd {
+  position: absolute;
+  bottom: -8px;              
+  right: 0px;               
+  width: 13px;              
+  height: 13px;
+  border-radius: 50%;
+  object-fit: contain;
+  z-index: 2;
+  transform: translate(-15px, -15px); 
+}
+

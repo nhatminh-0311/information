@@ -97,8 +97,8 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 500px;
-  background: rgba(3, 3, 3, 0.212);
+  margin-top: 10px;
+  background: rgba(75, 75, 75, 0.164);
   border-radius: 20px;
   padding: 10px 20px;
 
@@ -157,4 +157,5 @@ p {
   z-index: 2;
   transform: translate(-15px, -15px); 
 }
+
 
